@@ -1,0 +1,239 @@
+.banner-text {
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  position: absolute;
+  left: 300px;
+  top: 65px;
+  z-index: 1;
+  color: white;
+  font-size: 2rem;
+}
+.banner-image {
+
+}
+.body-background {
+  background: white;
+/*  border-left: 1px solid grey; -ova e za linija nalevo*/
+}
+menu {
+  border-width: 1px;
+  border-color: navy;
+  background-color: grey;
+}
+a, h4 {
+ font-family: "Times New Roman", serif;
+ display: flex;
+}
+.font-article {
+  font-family: "Times New Roman", serif;
+  margin-left: 200px; /*margini levo na tekstot*/
+  margin-top: 10px;
+}
+.font-aside {
+  font-family: "Trirong", serif;
+  font-size: 14px;
+}
+/*p:hover {
+ font-family: Arial, Helvetica, sans-serif;
+ color: purple;
+ background-color: #E6E6FA;
+ }*/
+ p.padding {
+   padding-top: 5px;;
+   padding-right: 25px;
+   font-family: "Sofia", sans-serif;
+ }
+ /*
+ a[href="assignment1/index.html"] {
+        padding: 1rem;
+        color: gray;
+        padding-left: 0px;
+}
+a[href="#"] {
+        padding: 1rem;
+        color: gray;
+        padding-left: 0px;
+}*/
+/*ul {
+ list-style-type: none;
+ font-family:Comic Sans MS;
+ margin: 0;
+ padding: 0;
+}*/
+/*li {
+ display: inline;
+}*/
+li{
+  display: inline;
+}
+.navigation {
+  display: inline;
+  /*font-family:Comic Sans MS;*/
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu-nav{
+  margin-left: 130px;
+  width: 1628px;
+  height: 60px;
+  background-color: rgb(240, 240, 240);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.menu-nav a:hover {
+  color: blue;
+  background-color: lightblue;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.navigation:hover {
+  color: gray;
+  background-color: #dddddd;
+}
+body {
+   background-color: white;
+ }
+/*img {
+   border-style: dashed;
+   border-color: navy;
+   border-width: 2px;
+   border-radius: 25px;
+   width:100px;
+ }*/
+ center {
+   margin: auto;
+ }
+
+ footer {/*
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    color: white;
+    height: 477px;
+    weight: 1628px;*/
+    z-index: -1;
+}
+.foot {
+  display: inline;
+  text-decoration: none;
+  font-family: "Times New Roman", serif;
+  color: white;
+}
+aside {
+  width: 17%;
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-right: 260px;
+  margin-top: 30px;
+  float: right;
+  color: hsl(0, 0%, 24%); /*dark grey text color*/
+}
+aside a {
+  color: blue;
+}
+article {
+  width: 50%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+}
+/*Centered text in footer*/
+/*
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+.container {
+  /*position: absolute;*/
+  text-align: center;
+  color: white;
+}
+.text-footer{
+  position: absolute;
+  z-index: 2;
+  left: 800px;
+  top: 1400px;
+}
+.img-padding{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footer {
+  text-align: center;
+}
+#banner {
+  text-align: center;
+}
+h3 {
+  width: 60%;
+  font-family: "Font Awesome 5 Free";
+  transition-property: font-size;
+  transition-duration: 2s;
+  /*transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s, 3s, 5s;*/
+}
+h3:hover {
+  background-color: rgb(240, 240, 240);
+  font-size: 2em;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 250px;
+  margin: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.flex-container > div > img {
+  width:250px;
+  height: 200px;
+}
+.products-list{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 200px; /*margini levo na tekstot*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+aside section:nth-child(1n) {
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+aside section a:nth-child(1n) {
+  background-color: lightblue;
+}
+aside section a {
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+aside section a:hover {
+  background-color: forestgreen;
+  font-size: 2em;
+}
+.transition-animation {
+  animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+}
