@@ -1,0 +1,25 @@
+form {
+  margin-left: 200px;
+}
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+input[type=submit] {
+  width: 10%;
+  background-color: lightgray;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=text], input[type=email], textarea, fieldset, select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

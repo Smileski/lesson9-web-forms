@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>About Us</title>
   <link rel="stylesheet" type="text/css" href="styles/style-sheet.css">
+  <link rel="stylesheet" type="text/css" href="styles/order.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
   <script src="https://kit.fontawesome.com/5bb51bab07.js" crossorigin="anonymous"></script>
@@ -51,20 +52,66 @@
                </aside>
              </div>
              <div>
-                <article class="font-article">
-                  <h3>Welcome to our Sweet Shop</h3>
-                  <p class="padding">Our chocolates come in flavor profiles for everyone to love!
-                  Whether its sweet, salty, dark, milk, white, coated in caramel or covered in nuts, our handcrafted chocolates from Homemade Chocolates by Lily are designed to be savored, enjoyed, and asked for by name!
-                  Find your new guilty pleasure today! Come and visit our store!
-                  It will be our please!
-                  </p>
-                  <img src="images/chocolate.jpg" alt="This is me, Ljubica T. Smileski" class="img-padding">
-                  <p class="padding">It is estimated that currently 1 billion people eat chocolate every day. In 2020 alone, some chocolate brands saw triple digit growth online during the pandemic. In America, the average person eats about 12 pounds of chocolate per year, compared to 15 pounds for the average European. It’s also interesting to know that 43% of online shoppers stick to their favorite brands again and again & 49% of online chocolate purchasers want to know more about how their chocolate was sourced according to one Wool & Water Report. One must begin to wonder, then, why do so many people seem to love chocolate that much--aside from the super great taste, that is! So, what exactly makes chocolate so special?
-                  Well, for starters, because it is derived from a naturally occurring plant, chocolate is known to have some rather medicinal properties. According to science, eating chocolate not only tastes good but it can actually make you happy.
-                  We don’t need an excuse to reach for a piece of the sweet treat. Sampling the local chocolate is part of the travel experience! Here are seven countries that make the best chocolate.
-                  </p>
-                </article>
-              </div>
+
+               <form method="GET">
+                 <h1>Order chocolate online</h1>
+                 <label for="fname">First name:</label><br>
+                 <input type="text" id="fname" name="fname" placeholder="Your name..">
+                 <label for="lname">Last name:</label><br>
+                 <input type="text" id="lname" name="lname" placeholder="Your last name..">
+
+                 <label>Email:
+                   <input type="email" name="aplicantEmail" placeholder="Your email..">
+                 </label>
+
+                 <label>Select type of chocolate:
+                   <select name="hours">
+                     <option value="">Please select</option>
+                     <option value="milk">milk chocolate</option>
+                     <option value="dark">dark chocolate</option>
+                     <option value="white">white cholate</option>
+                     <option value="mint">mint cholate</option>
+                   </select>
+                 </label>
+                 <label>Select type of nuts:
+                   <select name="hours">
+                     <option value="">Please select</option>
+                     <option value="milk">cashews</option>
+                     <option value="dark">almonds</option>
+                     <option value="white">walnuts</option>
+                     <option value="mint">pecans</option>
+                     <option value="mint">peanuts</option>
+                   </select>
+                 </label>
+
+                 <label>What is your favourite type of chocolate or candy?
+                   <textarea name="applicantReason" rows="4" cols="50">Milk chocolate turtle with caramel and macadamia nuts.</textarea>
+                 </label>
+
+                 <fieldset class="checkbox">
+                   <legend>Select one of our options:</legend>
+                   <label>
+                     <input type="checkbox" name="type" value="truf">Truffles
+                     <span class="checkmark"></span>
+                   </label>
+                   <label>
+                     <input type="checkbox" name="type" value="clus">Clusters
+                     <span class="checkmark"></span>
+                   </label>
+                   <label>
+                     <input type="checkbox" name="type" value="caram">Caramel squares
+                     <span class="checkmark"></span>
+                   </label>
+                   <label>
+                     <input type="checkbox" name="type" value="bars">Chocolate Bars
+                     <span class="checkmark"></span>
+                   </label>
+                 </fieldset>
+
+                 <input type="submit" value="Submit">
+
+                 </form>
+            </div>
     </div>
 
 
